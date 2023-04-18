@@ -1,5 +1,12 @@
 import pandas as pd
 import pymongo
+import matplotlib.pyplot as plt
+import nltk
+import transformers
+from textblob import TextBlob
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
+from tqdm import tqdm
 
 
 # connect to the mongoDB
