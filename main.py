@@ -1,13 +1,9 @@
 import pandas as pd
 import pymongo
-import matplotlib.pyplot as plt
-import nltk
-import transformers
 from textblob import TextBlob
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from transformers import pipeline
 from tqdm import tqdm
-from scipy.special import softmax
 import mysql.connector as mc
 import os
 
